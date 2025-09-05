@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Notas</title>
+</head>
+<body>
+  <h1>Cadastro de Notas dos Alunos</h1>
+
+  <button onclick="coletarNotas()">Informar alunos e notas</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    function coletarNotas() {
+      const alunos = parseFloat(prompt('Quantos alunos você gostaria de informar?'))
+      const notasAlunos = []
+        for(i=0;i<alunos;i++ ){
+          const nota1 = parseFloat(prompt(`Informe a nota da 1° prova do ${i+1}° aluno`))
+          const nota2 = parseFloat(prompt(`Informe a nota da 2° prova do ${i+1}° aluno`))
+        notasAlunos.push({ aluno: i+1, nota1: nota1, nota2: nota2})
+        }
+ 
+
+    const mediaNota = parseFloat(prompt('Qual a média necessária para ser aprovado?'))
+
+    const aprovados = [];
+    const reprovados = [];
+        
+    for(const aluno of notasAlunos){
+      const media = (aluno.nota1 + aluno.nota2)/2
+
+    if (media >= mediaNota) {
+      aprovados.push(`Aluno ${aluno.aluno} - Média: ${media.toFixed(2)}`);
+    } else {
+      reprovados.push(`Aluno ${aluno.aluno} - Média: ${media.toFixed(2)}`);
+    }
+  }
+  
+    let resultado = `<h2>Resultados</h2>`;
+    resultado += `<p>Quantidade de alunos: ${notasAlunos.length}</p>`;
+    resultado += `<h3>Aprovados (${aprovados.length}):</h3><p>${aprovados.join("<br>") || "Nenhum aluno aprovado."}</p>`;
+    resultado += `<h3>Reprovados (${reprovados.length}):</h3><p>${reprovados.join("<br>") || "Nenhum aluno reprovado."}</p>`;
+
+    document.getElementById("resultado").innerHTML = resultado;
+  }
+  </script>
+</body>
+</html>

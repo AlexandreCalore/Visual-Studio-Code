@@ -1,0 +1,59 @@
+let roupas = Array(10).fill(""); // Array for item names
+let quantidade = Array(10).fill(0); // Array for item quantities
+let precoroupa = Array(10).fill(0.0); // Array for item prices
+let n, quantidadet = 0, maior = 0;
+let precoroupat = 0.0, maiorv = 0.0;
+
+// Selecionar os elementos HTML onde os resultados serão exibidos
+const totalQuantityEl = document.getElementById("totalQuantity");
+const totalPriceEl = document.getElementById("totalPrice");
+const highestQuantityEl = document.getElementById("highestQuantity");
+const highestPriceEl = document.getElementById("highestPrice");
+
+// Adicionar evento ao botão
+const button = document.getElementById("startInventory");
+button.addEventListener("click", startInventory);
+
+function startInventory() {
+    n = parseInt(prompt("How many items will be registered?"));
+
+    for (let i = 0; i < n; i++) {
+        roupas[i] = prompt(`What is the name of item ${i + 1}?`);
+        quantidade[i] = parseInt(prompt(`What is the quantity of item ${i + 1}?`));
+        precoroupa[i] = parseFloat(prompt(`What is the price of item ${i + 1}?`));
+    }
+
+    // Calculate the total quantity of items
+    quantidadet = 0; // Reset total quantity
+    for (let i = 0; i < n; i++) {
+        quantidadet += quantidade[i];
+    }
+    totalQuantityEl.textContent = `Total quantity of items: ${quantidadet}`;
+
+    // Calculate the total price of items
+    precoroupat = 0.0; // Reset total price
+    for (let i = 0; i < n; i++) {
+        precoroupat += precoroupa[i] * quantidade[i];
+    }
+    totalPriceEl.textContent = `Total price of items: $${precoroupat.toFixed(2)}`;
+
+    // Find the item with the highest quantity
+    maior = 0; // Reset highest quantity
+    for (let i = 0; i < n; i++) {
+        if (maior < quantidade[i]) {
+            maior = quantidade[i];
+        }
+    }
+    highestQuantityEl.textContent = `Item with highest quantity: ${maior}`;
+
+    // Find the item with the highest price
+    maiorv = 0.0; // Reset highest price
+    for (let i = 0; i < n; i++) {
+        if (maiorv < precoroupa[i]) {
+            maiorv = precoroupa[i];
+        }
+    }
+    highestPriceEl.textContent = `Item with highest price: $${maiorv.toFixed(2)}`;
+}
+
+

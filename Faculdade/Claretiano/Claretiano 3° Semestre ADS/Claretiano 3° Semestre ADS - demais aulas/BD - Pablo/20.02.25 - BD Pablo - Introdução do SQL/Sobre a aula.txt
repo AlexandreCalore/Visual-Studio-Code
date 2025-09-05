@@ -1,0 +1,72 @@
+Sor começou a aula indicando 2 livros
+
+-A código da nova cultura
+-10 argumentos
+
+-----------------------------------------------HISTÓRIA DO SQL -------------------------------------------------
+Primeiros sistemas:
+
+Edgar F. Codd: O modelo Relacional e Revolucionário
+Ele criou o SQL - 1980 A era da comercialização e SQL:
+
+SGBDR (Sistemas gereniadores de banco de dados relacionais)
+SQL Padronizado
+ANSI (Inicio da padronização da linguagem através do ANSI)
+
+1990: Consolidação e novos paradigmas:
+
+Tecnologia Dominante
+Objetos Relacionais (Programação orientada a objetos)
+Otimização (Avanços significativos na otimização de consulta e processamento de transações, melhorando desempenho e escalabilidade)
+
+Anos 2000: Web; Big Data e Ascenção do NoSQL:
+
+Data Warehousing (Primeiras soluções em larga escala, permitindo análise de grandes volumes de dados para tomada de ações)
+Crescimento da internet (Com o crecimento da net, precisaram adapatar para lidar com volumes maiores de dados e acesso recorrente)
+NoSQL (Resposta a limitação dos bancos relacionais para certos casos de uso da web)
+
+Anos 2010: Era do NoSQL e da Nuvem
+
+Diversificação (Se intensificou com diferentes tipos de banco NoSQL (Documentos, grafos, chave-valor, etc))
+Computação em Nuvem (Transformou o modo como BD são  implantados e escalados, oferecendo flexibilidade e economia)
+NewSQL
+
+Presente e Futuro: Coexixstencia e IA:
+
+Poliglota (Coexixstencia de diferentes modelos de dados, com organizações adontando uma abordagem Poliglota)
+IA (Aprendizado de maquina, incorporados em sistema de banco de dados, tornando-os mais inteligentes e autonomos)
+Desafios (Gerenciamento de dados massivos, segurança e privacidade, consistência em sistemas distríbuidos e processamento em tempo real)
+
+------------------------------------------------------BANCO DE DADOS---------------------------------------------------------
+
+O que é?
+
+Coleção de dados inter-relacionados
+
+Aglomerado de dados coerentes e compartilhados por usuario que tem informações diversas
+
+Coleção de dados compartilhados logicamente relacionados e da descrição destes dados que são projetados para satisfazer as necessidades de informações de uma organização.
+
+OBJETIVOS/ESTRUTURAR DOS BD´s
+
+-Independencia dos dados
+-Controle da inconsistencia e redundancia de dados (Deu o exemplo de 2 BD onde você poderia apagar umd eles, e depois quanfo consultar o outro (que estao correlacionado) a informação deletada nao apreceria e isso caracterizaria a inconsistencia)
+-compartilhamento dos dados
+-Controle de acesso (Dispor recursos que possibilitem selecionar a autoridade de cada usuário)
+-Interfaceamento (Deverá disponibilizar formas de acesso gráfico)
+
+SGBD´s existentes
+
+PostgreSQL
+Oracle
+acess
+Interbase
+
+Modelo de dados
+
+Formas de represesentação
+
+3 abordagens clássicas
+Usuario ve o banco de dados segundo um modelo de visões
+
+Modelo hierárquico:

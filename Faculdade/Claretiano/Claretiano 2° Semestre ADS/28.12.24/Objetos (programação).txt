@@ -1,0 +1,5 @@
+Um objeto é uma coleção  de dados e funcionalidades.
+
+Ele é composto de pares de chave-valor, onde as chaves (ou propriedades) identificam os valores armazenados.
+
+Objetos representam entidades do mundo real e podem conter propriedades e comportamentos.

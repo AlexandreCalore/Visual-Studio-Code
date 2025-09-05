@@ -1,0 +1,24 @@
+Professor recomendou o livro: O quarto paradigma; descobertas científicas na era da eScience
+
+Retomou uma passada geral sobre a ultima aula.
+
+Vamos montar um modelo conceitual de tabela de dados para poder trabalhar.
+
+Modelo de dados físicos são as tabelas das quais imprimimos.
+
+Campo/chave primária - é o campo do qual utilizamos como critério para busca, onde o mesmo não pode ser replicado.
+
+Esquema = conjunto de tabelas que compoem aquele sistema, (exemplo: escola; aluno, nota, sala)
+
+Estado/instante = é a possibilidade de ter um backup/histórico de alterações do sistema, quem fez e quando, a fim de manter histórico, para não se perder dados ou se for alterado saber quem alterou.
+
+Aluno: nome/numero_aluno_tipo_aluno/curso
+Disciplina: nome_disciplina/numero_disciplina/Créditos/Departamento
+Pré_Requisito:número_disciplina/numero_pre_requisitado
+Turma:Identificação/sala
+
+Chave estrangeira: valor que faz referencia a chave primaria de outra tabela.
+
+Integridade referencial = É quando a tabela/skistema precisa de informações previas para poder operar (no exemplo do sor, seria o codigo do cliente, carro ou vendedor, onde para alocar o carro seria necessário antes alocar o carro)
+
+Recomendação de livro: SISTEMA DE BANCO DE DADOS NACATGE ELMASRI - BIBLIOTECA PIRSON SAV.

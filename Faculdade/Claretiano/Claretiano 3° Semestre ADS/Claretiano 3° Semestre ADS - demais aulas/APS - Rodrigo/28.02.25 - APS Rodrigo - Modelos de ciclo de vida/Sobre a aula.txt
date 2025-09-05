@@ -1,0 +1,98 @@
+Sor introduziu e contextualizou de como um software se perpetua no decorrer do tempo.
+
+Primeiro ciclo a ser levantado:
+
+-----------------------------------------MODELO CASCATA-----------------------------------------
+
+OBS: Foi um dos primeiros a serem implementados, era muito engessado e nao permitia flexibilidade.
+
+Concepcao
+analise
+projeto
+implementacao
+teste
+implantacao
+manutenção
+
+-----------------------------------------ADEQUAÇÃO DO MODELO CASCATA-----------------------------------------
+
+analise
+projetoconstrução
+avaliação
+manutenção
+
+OBS: Estão todos interligados, podendo ser reavaliados durante o processo.
+
+Reforça estrutura de dados, arquitetura do software, estrutural e projeto de interface. O ciclo de manutenção pode invocar novamente outras fases do ciclo.
+
+-----------------------------------------MODELO PROTOTIPAGEM-----------------------------------------
+
+Um protótipo inicial do produto é criado rapidamente.
+O protótipo é apresentado aos usuários para feedback.
+As sugestões e ajustes são implementados no protótipo.
+O ciclo de teste e melhoria se repete até a versão final.
+Ajuda a entender melhor os requisitos e reduzir erros.
+
+-----------------------------------------REPOSITÓRIO-----------------------------------------
+
+Basicamente é a central da atualização, onde você pode atualizar setores do seu projeto de maneira individual:
+
+
+Repositorio >
+
+analise
+projeto
+construção
+avaliação
+manutenção
+
+-----------------------------------------MODELO ESPIRAL-----------------------------------------
+
+O desenvolvimento ocorre em ciclos chamados espirais, cada um representando uma fase do projeto.
+Cada espiral envolve planejamento, análise de riscos, desenvolvimento e avaliação.
+Riscos são identificados e mitigados antes de avançar para a próxima etapa.
+O software é construído de forma incremental, com melhorias em cada iteração.
+Ideal para projetos complexos e de longo prazo, pois permite ajustes constantes.
+
+-----------------------------------------FLUXO DE DADOS-----------------------------------------
+
+Entidade externa > fluxo de dados 1 > processo > fluxo de dados 2 > depósito de dados > fluxo de dados 3 <> processo > fluxo de dados 4 > entidade externa
+
+-----------------------------------------ANÁLISE ESSENCIAL-----------------------------------------
+
+-----------------------------------------ANALISE ESTRUTURADA MODERNA-----------------------------------------
+
+Possibilita modificação na analise estruturada
+
+Pode acarretar em uma produtividade muito baixa na fase de analise
+
+-----------------------------------------METODO ORIENTADO A OBJETOS-----------------------------------------
+
+objetos manda msng entre si. resultando em invocação de metodos que desempenham as ações necessárias
+
+objetos agrupados em clasessse quando possuem interfaces iguais, respondendo mensagens da mesma forma
+
+é dinamico: quando o sistema ecetcuta objetos passam a existir e desempenjam acoes e depois cessam de exisstem e tornam inacessiveis.
+
+Objetos e classe de objetos tem atributos herdando no caso os objetos, uma classe de atributos das classes da qual eles sao membros
+
+algumas vantagens de orientação a objetos sao aapontadas.
+
+-----------------------------------------FLUXO DA MODELAGEM-----------------------------------------
+
+Compreender o negocio
+
+as suas necessidades
+
+e propor uma solução técnologica.
+
+-----------------------------------------UML - SÍNTESE GERAL DOS DIAGRAMAS-----------------------------------------
+
+É a padronização geral do desenvolvimento de software
+
+-----------------------------------------DIAGRAMAS NO GERAL-----------------------------------------
+TODOS TIRADOS FOTOS E ANEXOS NA PASTA DESSA AULA*
+
+
+
+

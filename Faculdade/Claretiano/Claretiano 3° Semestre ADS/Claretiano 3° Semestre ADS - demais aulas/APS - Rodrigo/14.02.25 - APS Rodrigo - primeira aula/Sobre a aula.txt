@@ -1,0 +1,17 @@
+APS - ANálise e Projeto de Sistema
+
+É um conjunto que visa entender, modelar ,  desenolver e implementar sistemas de informação eficazes e eficientes para a atender as necessidades do CNPJ ou usuario.
+
+Software sistema: Inclui sistemas operacionais (windows, linux) e outros que gerenciam o funcionamento do pc
+Software aplicativo: programas usados pelos usuarios para realizar tarefas especificas (Navegadores, editor de texto, jogos)
+Software de desenvolvimento: Ferramentas para criar outros softwares, editor de código, compiladores e depuradores.
+
+Crise dos software (termo usado para descrever principais probçlemas):
+
+-Atraso de desenvolvimento
+-Orçamento estourado 
+-Baixa qualidade
+-Dificuldade de manutenção
+-Falta de mão de obra qualificada
+
+Professor especificou sobre como ruídos durante o entendimento da necessidade do cliente, basicamente entender melhor a comunicação de ambas as partes interessadas.

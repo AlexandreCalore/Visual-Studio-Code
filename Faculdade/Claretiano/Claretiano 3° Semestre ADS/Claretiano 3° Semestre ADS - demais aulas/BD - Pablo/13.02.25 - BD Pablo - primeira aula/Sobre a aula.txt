@@ -1,0 +1,23 @@
+BD - Banco de dados
+
+Palavra do ano:
+
+O que voc~e espera desse ano?
+
+Porque você está aqui?
+
+Seja o seu melhor: como pessoa; como profissional; como aluno.
+
+
+Assuntos a serem estudados nesse semestre:
+-Histórico do banco de dados
+-Arquitetura de um SGBD
+-Modelo de entidade - Relacionamento
+-Mysql
+-Comandos SQL
+-Mysql - Workbanch
+-Exercicios para nota - Modelo de entidade - Relacionamento
+-Àlgebra relacional e normalização
+-Apresentação de situações problema.
+-Apresentação do seminário
+-Desenvolvimento dos scripts SQL.
