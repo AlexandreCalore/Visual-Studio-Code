@@ -1,0 +1,60 @@
+.heading:hover{
+    background-color: red;
+    color: white;
+}
+
+.heading{
+    transition: all 0.5s ease-in-out;
+}
+
+a:link{
+    color: yellow;
+    text-decoration: none;
+}
+
+a:visited{
+    color: rgb(102, 0, 255);
+    text-decoration: none;
+}
+
+a:hover{
+    background: darkslateblue;
+    color: white;
+    text-decoration: none;
+}
+
+a:active{
+    background: rgb(7, 255, 65);
+    color: white;
+    text-decoration: none;
+}
+
+input:focus{
+    box-shadow: 0 0 5px black;
+    outline: none;
+    border: 1px solid black;
+}
+
+input:disabled{
+    background-color: rebeccapurple;
+    cursor: not-allowed;
+}
+
+input:enabled{
+    background-color: rgb(0, 255, 8);
+}
+
+input:checked{
+    width: 50px; height: 50px;
+}
+
+
+input:checked~p{
+    font-size: 100px;
+    background-color: red;
+}
+
+.pai .lista li:first-child{
+    background-color: red;
+    width:fit-content;
+}

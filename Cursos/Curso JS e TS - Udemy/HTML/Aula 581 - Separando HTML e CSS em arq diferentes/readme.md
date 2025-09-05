@@ -1,0 +1,3 @@
+## Intro no CSS
+
+Abordou que o CSS te permite estilizar através de classes, ou de atributos no própio código, e por ultimo que foi o objetivo da aula, foi apresentar pra nós o arquivo separado do CSS Sendo necessário nesse arquivo, apenas colocar a estilização sem a tag de abertura e fechamento da style. No HTML fez se necessário apenas referenciar o CSS por meio de um link, que dai ele é indicado por meio de um href e você seleciona o nome do arquivo.

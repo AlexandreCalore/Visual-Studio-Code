@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        form{
+            background-image: url(https://picsum.photos/seed/picsum/200/300);
+            background-position: center;
+            color: #ffff;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        section{
+            background: rgba(0,0,0,0.8);
+            padding: 30px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+    <section>
+
+        <p>
+            <label for="datetime">Data e hora</label> <br>
+            <input type="datetime-local" id="datetime-local" name="datetime-local" required value="2025-01-07T06:50">
+        </p>
+        
+        <p>
+            <label for="Time">Hora</label> <br>
+            <input type="time" id="time" name="time" required value="06:50">
+        </p>
+
+        <p>
+            <label for="color">selecione uma cor </label>
+            <input type="color" id="color" name="color" required value=#fffff>
+        </p>
+
+        <p>
+            <label for="email">insira seu email </label>
+            <input type="email" id="email" name="email" required placeholder="seuemail@aqui.com">
+        </p>
+
+        <p>
+            <label for="file">Insira um Arquivo </label>
+            <input type="file" id="file" name="file" required accept=".png,.jpeg,image/*" multiple>
+        </p>
+
+        <p>
+            <label for="number">insira aqui um número</label>
+            <input type="number" id="number" name="number" required placeholder="1,2,3..." min="10" max="50" step="5">
+        </p>
+        <p>            
+        <legend>clique em um dos botões abaixo (aqui é a "legend" do código)</legend>
+        <button type="submit">Clique aqui pra enviar</button>
+        <button type="reset">Clique aqui pra resetar</button>
+        </p>
+    </form>
+</body>
+</html>

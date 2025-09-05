@@ -1,0 +1,16 @@
+p{
+    color: red;
+    background-color: turquoise;
+    font-size: 20px;
+    font-style: bold;
+    font-weight: 400;
+    direction: rtl;
+    letter-spacing: 5px;
+    word-spacing: 1px;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: overline underline line-through;
+    text-indent: 50px;
+    text-shadow: 2px -2px 5px black; /*pode ser direcionado a direção da sombra, alterando os pixels, para negativo ou positivo.*/
+    text-transform: lowercase uppercase capitalize;
+}

@@ -1,0 +1,2 @@
+## Introdução ao CSS
+Ensinou sobre a estilização das boxes que compõe os elementos do site, por exemplo, cores, margens e paddings(meio que a margem interna do conteúdo), colocar borda, alterar as bordas em especifico, inserção de imagens, etc e etc.

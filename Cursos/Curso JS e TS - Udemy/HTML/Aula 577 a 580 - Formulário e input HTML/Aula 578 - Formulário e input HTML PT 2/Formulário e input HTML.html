@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        form{
+            padding: 20px;
+            margin: 10px;
+            box-sizing: border-box;
+            background: #000000;
+            color: #ffffff;
+            width: 20px 0 0 0;
+        }
+        button{
+            margin-top: 20px;
+            padding: 10px;
+            flex-direction: column;
+            
+        }
+        label{
+            cursor: pointer;
+            display: block;
+        }
+        .radio{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+    <section>
+        <h1>Teste título </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore exercitationem autem dolorem culpa? Blanditiis doloribus sit, cumque quisquam tenetur, aspernatur consequatur vitae eum assumenda commodi praesentium ipsum natus repellat corporis!
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Insira o nome" required>
+        </p>
+           
+        <p>    
+            <label for="dev">Sou um dev</label>
+            <input type="checkbox" id="dev" value="Sim" required>
+        </p>
+
+        <p> 
+            Genero: <br><br>
+            <label for="feminino">feminino</label>
+            <input type="radio" id="feminino" value="feminino" name="genero" required>
+            <label for="masculino">masculino</label>
+            <input type="radio" id="masculino" value="masculino" name="genero" required>
+            <label for="neutro">neutro</label>
+            <input type="radio" id="neutro" value="neutro" name="genero" required>
+
+        </p>
+
+        <p>    
+            <label for="dev">Sou um dev</label>
+            <input type="button" id="dev" value="Sim, eu sou dev" required> (aperte se for verídico)
+        </p>
+
+        <p>
+            <legend>cilque em um dos botões abaixo (aqui é a "legend" do código)</legend>
+            <button type="reset">Resetar valores do form</button>
+            <button type="submit">Enviar o formulário</button>
+        </p>
+    </form>
+</body>
+</html>

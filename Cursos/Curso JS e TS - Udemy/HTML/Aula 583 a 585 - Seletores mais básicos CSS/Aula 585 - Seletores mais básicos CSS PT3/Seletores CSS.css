@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+[atributomeu="valor"] {
+color: red;
+}
+
+[atributomeu~="valor1"] {
+    color: rgba(0, 255, 17, 0.966);
+}
+
+[atributomeu|="valor"] {
+    color: rgba(0, 255, 17, 0.966);
+}
+
+[atributomeu^="comecou"] {
+    color: rgba(255, 234, 0, 0.966);
+}
+
+[atributomeu$="lll"] {
+    color: rgba(255, 0, 157, 0.966);
+}
+
+[atributomeu*="faca"] {
+    color: rgba(0, 88, 16, 0.966);
+}

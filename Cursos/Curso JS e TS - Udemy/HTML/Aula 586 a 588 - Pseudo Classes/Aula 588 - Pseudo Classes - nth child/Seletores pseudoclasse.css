@@ -1,0 +1,25 @@
+ul li:nth-child(odd){
+    background-color: blue;
+    width:fit-content; height: auto;
+}
+
+ul li:nth-child(even){
+    background-color: red;
+    width:fit-content; height: auto;
+}
+
+ul li:nth-child(2){
+    background-color: yellow;
+    width:fit-content; height: auto;
+}
+
+ul li:nth-child(3n){
+    background-color: greenyellow;
+    width:fit-content; height: auto;
+}
+
+
+ul li:nth-child(1n+12){
+    background-color: rgb(255, 0, 242);
+    width:fit-content; height: auto;
+}

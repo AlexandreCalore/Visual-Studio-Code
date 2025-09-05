@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: red;
+}
+
+body div section p,
+body div h1{
+    color: blue;
+}
+
+.class{
+    text-transform: uppercase;
+}
+
+.pai{
+    color: deeppink;
+}
+
+.pai > .filha > .filhadafilha{
+    color: yellow;
+}
+
+div{
+    color: initial;
+    margin-left: 20px;
+}

@@ -1,0 +1,40 @@
+/*
+Style 1 -> ID 1 -> Classes 0 -> Atributos 0 -> Pseudo-classes 0 -> Elementos 0-> Pseudo-elementos 0
+
+!important
+
+-Esta é a ordem de peso na hora de estilizar-
+
+Especificidade
+Empate
+Style
+
+!Importante
+*/
+p{
+    background-color: aqua !important;
+}
+
+#p{
+    background-color: red;
+}
+
+.p{
+    background-color: yellow;
+}
+
+#p.p{
+    background-color: rgb(0, 47, 255);
+}
+
+p #p.p{
+    background-color: rgb(0, 47, 255);
+}
+
+body#b p #p.p{
+    background-color: rgb(221, 255, 0);
+}
+
+body#b p #p.p::selection:hover{
+    background-color: rgb(221, 255, 0);
+}

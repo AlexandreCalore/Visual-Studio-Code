@@ -1,0 +1,1 @@
+Ele só passou pelo site dele, demonstrando na prática uma landing page para que pudessemos assimilar o CSS na prática.

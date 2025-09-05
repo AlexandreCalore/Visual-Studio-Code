@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+    <link rel="stylesheet" href="assets/css/variable.css">
+    <link rel="stylesheet" href="assets/css/classes.css">
+    <link rel="stylesheet" href="assets/css/elements.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/mediaquery.css">
+</head>
+<body class="main-bg">
+
+    <input id="close-menu" type="checkbox" class="close-menu">
+    <label class="close-menu-label" for="close-menu" title="close menu"></label>
+    <div class="menu">
+        <aside class="white-bg itens-menu">
+            <div class="menu-content">
+                <h1 class="logo" onclick="getElementById('close-menu').checked = false;">LOGO</h1>
+                <div class="lista">
+                    <nav>
+                        <ul onclick="getElementById('close-menu').checked = false;">
+                            <li><a href="#intro">Introdução</a></li>
+                            <li><a href="#top3">Sobre mim</a></li>
+                            <li><a href="#grid-one">Repositório</a></li>
+                            <li><a href="#gallery">Principais Clientes</a></li>
+                            <li><a href="#pricing">Tabela de Preços</a></li>
+                            <li><a href="#contact">Contato</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <div class="menu-spacing"></div>
+
+    <section class="intro main-bg section" id="intro">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Bem-vindo à nossa landing page</h2>
+                <p>Apresentação sucinta sobre o projeto, destacando objetivos e informações principais.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/JSnotoptmize.svg" alt="Exemplo de ilustração">
+            </div>
+        </div>
+    </section>
+
+    <section class="white-bg section" id="top3">
+        <div class="main-content top3-content">
+            <h2>Sobre Mim</h2>
+            <p>Descrição resumida do autor ou equipe responsável pelo projeto, suas qualificações e experiências.</p>
+        </div>
+    </section>
+
+    <section class="grid-one main-bg section" id="grid-one">
+        <div class="main-content grid-one-content">
+            <h2>Repositório</h2>
+            <p>Exposição de projetos e trabalhos realizados.</p>
+            <div class="grid">
+                <article>
+                    <h3>Projeto 1</h3>
+                    <p>Descrição breve do projeto 1.</p>
+                </article>
+                <article>
+                    <h3>Projeto 2</h3>
+                    <p>Descrição breve do projeto 2.</p>
+                </article>
+                <article>
+                    <h3>Projeto 3</h3>
+                    <p>Descrição breve do projeto 3.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="grid-one gallery white-bg section" id="gallery">
+        <div class="main-content grid-one-content">
+            <h2>Principais Clientes</h2>
+            <p>Galeria de trabalhos ou clientes atendidos.</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://4kwallpapers.com/images/walls/thumbs_sq/18845.jpg" alt="Imagem exemplo 1">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://steamuserimages-a.akamaihd.net/ugc/781878301216327266/703E40F41C6DADAC3FD0E0977267FD847BD37DFA/?imw=5000&imh=5000&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=false" alt="Imagem exemplo 2">
+                </div>
+                <div class="gallery-img">
+                    <img src="https://4kwallpapers.com/images/walls/thumbs_sq/21109.jpeg" alt="Imagem exemplo 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-bg section" id="pricing">
+        <div class="main-content pricing">
+            <h2>Tabela de Preços</h2>
+            <p>Apresentação dos serviços ou produtos com valores correspondentes.</p>
+            <div class="tabela-responsiva">
+                <table>
+                    <caption>Tabela de Preço</caption>
+                    <thead>
+                        <tr>
+                            <th>Serviço 1</th>
+                            <th>Serviço 2</th>
+                            <th>Serviço 3</th>
+                            <th>Serviço 4</th>
+                            <th>Serviço 5</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Detalhe 1</td>
+                            <td>Detalhe 2</td>
+                            <td>Detalhe 3</td>
+                            <td>Detalhe 4</td>
+                            <td>Detalhe 5</td>
+                        </tr>
+                        <tr>
+                            <td>Detalhe 1</td>
+                            <td>Detalhe 2</td>
+                            <td>Detalhe 3</td>
+                            <td>Detalhe 4</td>
+                            <td>Detalhe 5</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="5">Resumo ou nota adicional</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section class="intro white-bg section" id="contact">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contato</h2>
+                <p>Formulário para os usuários entrarem em contato de maneira direta.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/JSnotoptmize.svg" alt="Exemplo de ilustração de contato">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Envie sua Mensagem</legend>
+                    <div class="form-group">
+                        <label for="first-name">Nome</label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Seu nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome</label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Seu sobrenome">
+                    </div>
+                    <div class="form-group email full-width">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Seu email">
+                    </div>
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+                    <div class="form-group button full-width">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer main-bg">
+        <p>&copy; 2025 Seu Projeto - Todos os direitos reservados.</p>        
+    </footer>
+    
+    <a class="back-to-top" href="#">TOP</a>
+</body>
+</html>

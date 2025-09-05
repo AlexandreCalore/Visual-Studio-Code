@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        form{
+            background-image: url(https://picsum.photos/seed/picsum/200/300);
+            background-position: center;
+            color: #ffff;
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        section{
+            background: rgba(0,0,0,0.8);
+            padding: 30px;
+            margin: 10px;
+            box-sizing: border-box;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+    <section>
+
+        <p>
+            <label for="email">insira seu email </label>
+            <input type="email" id="email" name="email" required placeholder="seuemail@aqui.com">
+        </p>
+
+        <p>
+            <label for="password">Insira sua password</label>
+            <input type="password" name="password" id="password" placeholder="Insira sua senha">
+        </p>
+        
+        <p>
+            <label for="range">Insira seu range</label>
+            <input type="range" name="range" id="range" list="lista">
+            <datalist id="lista">
+                <option value="2"></option>
+                <option value="4" label="0%"></option>
+                <option value="6"></option>
+                <option value="8"label="5%"></option>
+                <option value="10"></option>
+                <option value="12"label="100%"></option>
+            </datalist>
+        </p>
+
+        <p>
+            <label for="url">insira seu URL </label>
+            <input type="url" id="url" name="url" required placeholder="seu url aqui">
+        </p>
+
+        <p>
+            <label for="search">insira seu search</label>
+            <input type="search" id="search" name="search" required placeholder="seu search aqui">
+        </p>
+        
+
+        <p>
+            <label for="select">selecione alguma opção</label>
+           <select name="select" id="select">
+            <optgroup label="Teste de grupo">
+            <option value="qualquer1" label="Teste 1"></option>
+            <option value="qualquer2" label="Teste 2"></option>
+            <option value="qualquer3" label="Teste 3" selected></option>
+            <option value="qualquer4" label="Teste 4" disabled></option>
+        </optgroup>
+            <optgroup label="Teste de grupo">
+            <option value="qualquer5" label="Teste 1" disabled></option>
+            <option value="qualquer6" label="Teste 2"></option>
+            <option value="qualquer7" label="Teste 3"></option>
+            <option value="qualquer8" label="Teste 4"></option>
+        </optgroup>
+        </select>
+        </p>
+
+<p>
+    <label for="textarea">Text area:</label>
+    <textarea name="textarea" id="textarea" cols="10" rows="3">
+        Teste
+    </textarea>
+</p>
+
+        <p>            
+        <legend>Clique em um dos botões abaixo (aqui é a "legend" do código)</legend>
+        <button type="submit">Clica aqui pra enviar</button>
+        <button type="reset">Clica aqui pra resetar</button>
+        </p>
+    </form>
+</body>
+</html>

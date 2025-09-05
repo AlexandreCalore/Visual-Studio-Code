@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: repeat(2, 1fr 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid div{
+    min-height: 100px;
+    background-color: tomato;
+}
+
+.grid div:nth-child(5),
+.grid div:nth-child(6)
+{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: darkred;
+    grid-row: span 2;
+}
+
+

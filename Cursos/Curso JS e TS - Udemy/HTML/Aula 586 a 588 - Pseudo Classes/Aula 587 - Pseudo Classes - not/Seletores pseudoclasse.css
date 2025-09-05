@@ -1,0 +1,8 @@
+.heading:hover{
+    background-color: red;
+    color: white;
+}
+
+p:not(.meio) {
+    color: blue;
+}
