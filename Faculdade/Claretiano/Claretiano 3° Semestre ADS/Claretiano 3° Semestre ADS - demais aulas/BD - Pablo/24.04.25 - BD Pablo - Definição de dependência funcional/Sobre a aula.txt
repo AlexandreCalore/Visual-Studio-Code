@@ -1,0 +1,10 @@
+1 - Chave primaria: Conjunto de atributos que identifica unicamente cada registro na tabela
+2 - Determinante: é o conjunto de atributos que determina o valor de outros atributos em uma tupla (linha) (exemplo CPF)
+3 - Dependencia funcional: Campo 
+
+3.1 Dependencia Trivial: Dependencia trivial que acontece quando um atributo é determinado por sua propia chave primaria
+3.2 Dependencia Parcial: 
+3.3 Dependencia Transitiva:
+
+
+*fotos tiradas

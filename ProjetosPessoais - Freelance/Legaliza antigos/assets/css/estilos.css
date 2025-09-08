@@ -1,0 +1,332 @@
+ /*Estilização do Hero*/
+
+.grid-hero{
+    grid-template-columns: 1fr 1.5fr;   
+} 
+
+.text-grid-hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-grid-hero h1{
+    font-size: 4rem;
+    text-align: left;
+}
+
+.text-grid-hero p{
+    margin-top: 1rem;
+    text-align: justify;
+}
+
+.img-logo-hero img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-bottom: 2rem 0rem;
+}
+
+.button-hero{
+    margin: 3rem 0;
+    height: 8.5rem;
+    border-radius: 10rem;
+    font-size: 2rem;
+    background-color: var(--amarelo);
+}
+
+.button-hero:hover{
+    background-color: var(--branco);
+}
+
+.img-car-hero{
+    overflow:visible;
+}
+
+.img-car-hero img{
+    display: block;
+    max-width: 100%;
+    border-radius: 5rem;
+    flex-shrink: 0;
+    min-width: 40rem;
+    justify-content: left;
+}
+
+ /*Estilização da seção de prós e contras*/
+
+.text-grid-benefits-harm{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.text-grid-benefits-harm h2 {
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+
+.grid-benefits-harm{
+    grid-template-columns: 1fr 1fr;
+    margin: 4.5rem 0;
+    gap: 6rem;
+}
+
+.harm,
+.benefits{
+    background-color: var(--branco);
+    border-radius: 2rem;
+    padding: 4rem;
+    justify-content:start;
+}
+
+.harm h2,
+.benefits h2{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.harm ul{
+    font-weight: 500 ;
+    color: var(--vermelho);
+}
+
+.harm ul li img{
+    width: 2rem;
+    height: 2rem;
+}
+
+.harm ul li, 
+.benefits ul li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.benefits ul{
+    font-weight: 500 ;
+    color: var(--verde);
+}
+
+.benefits ul li img{
+    width: 3rem;
+    height: 3rem;
+}
+
+ /*Estilização da seção especialidades*/
+
+.text-specialty, .title-value{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.specialty-content, .value-content{
+    padding-top: 5rem;
+    display: flex;
+}
+
+.square-specialty{
+    width: 100%;
+    height: 100%;
+    min-height: 45rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.square-specialty p{
+padding-top: 2.5rem; 
+}
+
+.specialty-2{
+    border-right: 2px solid var(--amarelo);
+    border-left: 2px solid var(--amarelo);
+}
+
+.marker-position-specialty{
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 3rem;
+}
+
+.marker-check{
+    width: 15%;
+    min-width: 5rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-content: center;
+    background-color: var(--branco);
+    border-radius: 5rem 5rem 5rem 0;
+}
+
+.square-value{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 40rem;
+    max-width: 38rem;
+    width: 100%;
+    padding: 4rem 1rem;
+    margin: 0rem 1rem;
+    background-color: var(--cinza-escuro);
+    border-radius: 5%;
+}
+
+
+/*Estilização da seção missão e valores*/
+
+.text-value{
+    text-align: center;
+}
+
+
+.marker-position-value{
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.marker-position-value h2{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.marker-value{
+    max-width: 5rem;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+/*Estilização da seção que contém apenas um botão*/
+
+.button-half{
+    max-width: 50rem;
+    margin: 3rem 0;
+    height: 8.5rem;
+    border-radius: 10rem;
+    font-size: 2rem;
+    background-color: var(--branco);
+    border: none;
+}
+
+.div-button-half{
+    max-width: 50rem;
+    width: 100%;
+    height: 100%;
+}
+
+/*Estilização da seção quem nós somos*/
+
+.title-us{
+    font-size: 4rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.grid-us{
+    grid-template-columns: 1fr 1fr;  
+    padding-top: 3rem;
+    align-items: center;
+}
+
+.grid-us div{
+    background-color: var(--preto);
+    z-index: 1;   
+    height: 100%;
+    border-left: solid var(--branco) 0.5rem;
+}/*Cria o fundo preto do texto, a borda branca, além de definir a posição dele no z-index*/
+
+.text-grid-us {
+    padding-left: 2rem;
+    padding-right: 10rem
+}
+
+.grid-us img{
+    width: 150%;
+}
+
+.span-grid-us{
+    grid-column: span 2;
+}
+
+/*Estilização da seção FAQ*/
+
+.FAQ{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.FAQ-square{
+    background-color: var(--branco);
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: center;
+    align-items: stretch;
+    min-width: 100%;
+    min-height: 18.5rem;
+}
+
+.FAQ-square p {
+    padding: 0 2rem;
+    font-weight: 400;
+}
+
+.FAQ h1{
+    text-align: center;
+  }
+
+/*Estilização da ultima seção rodapé*/
+
+.footer{
+    max-width: 65rem;
+    padding-top: 6rem ;
+    gap: 1rem;
+}
+
+.footer p{
+    padding: 2rem 0;
+    max-width: 40rem;
+    font-weight: 500 ;
+}
+
+.button-footer{
+    max-width: 45rem;
+    margin: 3rem;
+    height: 8.5rem;
+    border-radius: 10rem;
+    font-size: 2rem;
+    background-color: var(--branco);
+    border: none;
+}
+
+.button-div-footer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+}
+
+.copyright{
+    padding-top: 2rem;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 15rem;
+}
+
+.hover{
+    cursor: pointer;
+    transition:ease-in-out 300ms;
+}
+
+.hover:hover{
+    transform: scale(1.05);
+}

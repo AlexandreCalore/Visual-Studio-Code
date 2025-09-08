@@ -1,0 +1,7 @@
+LDP - Laboratório de programação Thomazella 
+
+Sor começou falando sobre C, que embora nao seja tao mais utilizada, é um bom norte para qualquer linguagem.
+
+Professor ao criar software quebra todos os processos em módulos/partes simples, estruturando o projeto e agilizando
+
+Sempre peça um prazo maior, nao se deixe levar pelo seu ego, negligenciar as coisas. Tenha calma.

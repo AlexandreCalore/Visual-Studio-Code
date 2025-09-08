@@ -1,0 +1,9 @@
+int do C = é um retorno, mas é obrigatorio para funcionar.
+
+Observação: na aula passada eu não me atentei, mas o #include <stdio.h> é necessário para importar 
+
+o C é uma linguagem altamente tipada, sendo preciso ter um inicio tipo e fim, muito bem declarado
+
+Professor usa dubble pela questão dele permitir um número muito maior quanto a byte´s, prevenindo erros futuros de números enormes, coisa que o float daria problema com o passar do tempo.
+
+Tentei instalat o gcc porém sem sucesso.

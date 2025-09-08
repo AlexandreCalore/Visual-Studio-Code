@@ -1,0 +1,12 @@
+Sor abordou sobre 
+
+If
+Else
+While
+For
+or
+
+./ (seleciona a pasta/arquivo)
+gcc (comando para compilar o arquivo/rodar ele)
+ls (selecionar a pasta da qual você vai estar mechendo, se não ele vai pegar a pasta geral por padrão)
+gcc .\if.c -o Imparpar (gcc=compilar o arquivo.c| -o=Transformar o arquivo em binário para que a máquina leia/.exe)| imparpar (nome do arquivo que você definir)

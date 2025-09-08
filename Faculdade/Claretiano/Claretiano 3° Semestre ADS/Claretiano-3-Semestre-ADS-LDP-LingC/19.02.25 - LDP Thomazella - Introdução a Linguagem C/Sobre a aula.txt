@@ -1,0 +1,7 @@
+Professor introduziu sobre a linguagem C, problemas da área, sobre linguagens, explicou um pouco dos projetos, etc.
+
+Vamos trabalhar no site onlinegbd.com
+
+Demonstrou 2 casos de estudo, onde o primeiro ele calculava o valor de uma venda baseado em valroes que eram retornados de um banco de dados, e depois trabalhado/somados em uma estrutura de repetição.
+
+No outro, devolveu o valor instantenamente, reduzindo muito o consumo do processador, simplesmente por delegar essa tarefa ao SQL/Banco de dados, e depois apenas mostrando na tela.

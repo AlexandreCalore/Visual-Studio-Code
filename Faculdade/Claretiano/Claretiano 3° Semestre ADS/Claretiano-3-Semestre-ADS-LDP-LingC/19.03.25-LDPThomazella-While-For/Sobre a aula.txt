@@ -1,0 +1,3 @@
+Sor falou sobre o While, e como usa-lo (mema bosta do JS)
+
+Sor passou sobre do{} while{}, onde nada mais é que esse do executa ao menos uma vez, e no caso do while, executa se a opcao for !=(ou seja, diferente de 2, pois o 2 simboliza o "sair" do código)
